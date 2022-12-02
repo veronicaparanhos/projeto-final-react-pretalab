@@ -51,3 +51,27 @@ form {
 .formButton:hover {
   background-color: #C3BEF0;
 }
+
+.contatoContainer {
+  padding: 4rem;
+  display: flex;
+  text-align: center;
+}
+
+.cardContainer {
+  width: 100%;
+}
+
+.cardTitle {
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: #584280;
+}
+
+.cardLink {
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #584280;
+  text-decoration: none;
+}
