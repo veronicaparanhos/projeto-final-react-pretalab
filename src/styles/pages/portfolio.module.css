@@ -1,0 +1,80 @@
+.fav {
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  color: #65647c;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.titleFav {
+  margin-top: 70px;
+  text-align: center;
+  color: #65647c;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.imgFav {
+  margin: 30px;
+  width: 250px;
+}
+
+.textFav {
+  font-size: 1.2rem;
+  padding: 30px;
+}
+
+.linkFav {
+  color: #fff;
+  background-color: #fd0178;
+  padding: 10px 10px;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.conteiner {
+  display: flex;
+  margin: 30px auto;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+.cardContainer {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 80%;
+  align-items: center;
+}
+
+.card {
+  height: 150px;
+  width: 200px;
+  background-color: #fd0178;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px;
+}
+
+.textContainer {
+  margin-top: 100px;
+  text-align: center;
+  color: #65647c;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.enterRepo {
+  bottom: 10px;
+  margin-top: 100%;
+}

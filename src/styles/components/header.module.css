@@ -1,6 +1,6 @@
 .headerContainer {
   padding: 6rem;
-  background: #C3BEF0;
+  background: #9392ae;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 .headerTitle {
-  color: #584280;
+  color: #fff;
   font-size: 3.5rem;
   font-weight: 700;
 }

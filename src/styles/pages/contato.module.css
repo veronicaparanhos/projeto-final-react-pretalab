@@ -34,7 +34,7 @@ form {
 }
 
 .formButton {
-  background-color: #e885c5;
+  background-color: #fd0178;
   border: none;
   color: white;
   padding: 12px 32px;
@@ -49,7 +49,7 @@ form {
 }
 
 .formButton:hover {
-  background-color: #C3BEF0;
+  background-color: #f9469a;
 }
 
 .contatoContainer {
@@ -62,16 +62,16 @@ form {
   width: 100%;
 }
 
-.cardTitle {
+/* .cardTitle {
   padding: 1rem;
   font-size: 1.3rem;
-  color: #584280;
-}
+  color: #fd0178;
+} */
 
 .cardLink {
   padding: 1rem;
   font-size: 1.3rem;
   font-weight: 700;
-  color: #584280;
+  color: #4c4b59;
   text-decoration: none;
 }

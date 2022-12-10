@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Header } from "../components/Header";
 import { GithubLogo, Envelope, LinkedinLogo } from "phosphor-react";
-import contatoImg from "../assets/contato.svg";
+import contatoImg from "../assets/contato2.svg";
 import styles from "../styles/pages/contato.module.css";
 import { database } from "../service/firebase";
-import { ref, push, set } from 'firebase/database'
+import { ref, push, set } from "firebase/database";
 
 export function Contato() {
   const [nome, setNome] = useState("");
@@ -26,18 +26,14 @@ export function Contato() {
   function createMessage(event) {
     event.preventDefault();
 
-    console.log("nome: ", nome);
-    console.log("email: ", email);
-    console.log("mensagem: ", mensagem);
-
-    const mensagensListRef = ref(database, 'mensagens')
-    const novaMensagemRef = push(mensagensListRef)
+    const mensagensListRef = ref(database, "mensagens");
+    const novaMensagemRef = push(mensagensListRef);
 
     set(novaMensagemRef, {
       nome: nome,
       email: email,
-      texto: mensagem
-    })
+      texto: mensagem,
+    });
 
     setNome("");
     setEmail("");
@@ -46,7 +42,7 @@ export function Contato() {
 
   return (
     <>
-      <Header text="Chama no contatinho" image={contatoImg} />
+      <Header text="Entre em contato" image={contatoImg} />
       <div className={styles.formContainer}>
         <form onSubmit={createMessage} className={styles.form}>
           <input
@@ -74,7 +70,7 @@ export function Contato() {
       </div>
       <div className={styles.contatoContainer}>
         <div className={styles.cardContainer}>
-          <GithubLogo size={70} color="#584280" /> <br />
+          <GithubLogo size={70} color="#4c4b59" /> <br />
           <br />
           <a
             href="https://github.com/veronicaparanhos"
@@ -85,7 +81,7 @@ export function Contato() {
           </a>
         </div>
         <div className={styles.cardContainer}>
-          <LinkedinLogo size={70} color="#584280" /> <br />
+          <LinkedinLogo size={70} color="#4c4b59" /> <br />
           <br />
           <a
             href="https://www.linkedin.com/in/veronicahp/"
@@ -96,7 +92,7 @@ export function Contato() {
           </a>
         </div>
         <div className={styles.cardContainer}>
-          <Envelope size={70} color="#584280" /> <br />
+          <Envelope size={70} color="#4c4b59" /> <br />
           <br />
           <a href="mailto:veronicahp@gmail.com" className={styles.cardLink}>
             Email

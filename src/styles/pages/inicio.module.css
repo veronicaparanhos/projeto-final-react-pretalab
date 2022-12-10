@@ -5,6 +5,7 @@
   align-items: center;
   gap: 4rem;
   text-align: center;
+  background-color: #fff;
 }
 
 .cardContainer {
@@ -14,13 +15,13 @@
 .cardTitle {
   padding: 1rem;
   font-size: 2rem;
-  color: #584280;
+  color: #fd0178;
 }
 
 .cardText {
   font-size: 1.2rem;
   text-align: center;
-  color: #584280;
+  color: #65647c;
 }
 
 @media (max-width: 765px) {
