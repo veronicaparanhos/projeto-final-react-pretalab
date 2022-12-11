@@ -6,7 +6,7 @@ import portfolioGif from "../../../assets/portfolio.gif";
 export function Favoritos() {
   return (
     <section>
-      <div className={styles.titleFav}>Meus favoritos</div>
+      <div className={styles.titleFav}>Favoritos</div>
       <div className={styles.fav}>
         <div>
           <img className={styles.imgFav} src={portfolioGif} />

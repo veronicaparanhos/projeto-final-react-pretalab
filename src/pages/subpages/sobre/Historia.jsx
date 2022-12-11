@@ -15,6 +15,7 @@ export function Historia() {
             Sou Carioca, tenho 42 anos e sou formada em Comunicação Social pela
             UFRJ. Sempre fui apaixonada por ciência e tecnologia, atualmente
             estou em transição de carreira para a área de Desenvolvimento Web.
+            <br />
             Fiz um ano de Análise e Desenvolvimento de Sistemas, mas optei por
             me especializar primeiro em front-end. O meu objetivo é me tornar
             uma desenvolvedora Full Stack.

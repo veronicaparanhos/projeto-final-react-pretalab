@@ -19,10 +19,10 @@ export function Github() {
 
   return (
     <section>
-      <div className={styles.textContainer}>Outros projetos no Github</div>
-      <div className={styles.cardContainer}>
+      <div className={styles.titleGit}>Outros projetos no meu Github</div>
+      <div className={styles.card}>
         {repositories.map((repo) => (
-          <div className={styles.card}>
+          <div className={styles.cardGit}>
             <h3 key={repo.id}>{repo.name}</h3>
             <br />
             <a href={repo.html_url} target="_blank">
