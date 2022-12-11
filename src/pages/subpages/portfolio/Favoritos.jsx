@@ -9,8 +9,8 @@ export function Favoritos() {
       <div className={styles.titleFav}>Meus favoritos</div>
       <div className={styles.fav}>
         <div>
-          <h4>Site Pessoal</h4>
           <img className={styles.imgFav} src={portfolioGif} />
+          <h4>Site Pessoal</h4>
           <p className={styles.textFav}>
             Projeto desenvolvido durante o módulo de HTML e CSS do Curso
             Formativo Pretalab
@@ -24,8 +24,8 @@ export function Favoritos() {
           </a>
         </div>
         <div>
-          <h4>To Do List</h4>
           <img className={styles.imgFav} src={todolistGif} />
+          <h4>To-do List</h4>
           <p className={styles.textFav}>
             Projeto desenvolvido durante o módulo de JavaScript do Curso
             Formativo Pretalab
@@ -39,8 +39,8 @@ export function Favoritos() {
           </a>
         </div>
         <div>
-          <h4>RocketPay</h4>
           <img className={styles.imgFav} src={rocketpayGif} />
+          <h4>RocketPay</h4>
           <p className={styles.textFav}>
             Projeto guiado desenvolvido durante o ExplorerLab da RocketSeat
           </p>
