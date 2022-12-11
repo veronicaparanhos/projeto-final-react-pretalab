@@ -6,7 +6,7 @@
 
 ### `Meu site pessoal`
 
-> ⚠️ Neste site, eu treino a aplicação dos conceitos fundamentais de ReactJS que aprendi durante o módulo de ReactJS da Reprograma.
+> ⚠️ Neste site, eu treino a aplicação dos conceitos fundamentais de ReactJS que aprendi durante o módulo de ReactJS do Ciclo Formativo PretaLab.
 
 #### Resumo dos conteúdos aplicados
 
