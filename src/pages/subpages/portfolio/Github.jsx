@@ -25,11 +25,7 @@ export function Github() {
           <div className={styles.card}>
             <h3 key={repo.id}>{repo.name}</h3>
             <br />
-            <a
-              href={repo.html_url}
-              target="_blank"
-              className={styles.enterRepo}
-            >
+            <a href={repo.html_url} target="_blank">
               <BsBoxArrowInUpRight size={16} color="#fff" />
             </a>
           </div>

@@ -1,8 +1,6 @@
 # Projeto Guiado - ReactJS🚀
 
-![image]()
-
----
+![image](./src/assets/sitereact.png)
 
 ## Projeto
 
@@ -26,6 +24,8 @@
 - Deploy e configuração para evitar o erro 404
 
 O site já está no ar e você pode acessar aqui: [Meu site pessoal](https://projeto-final-react-pretalab-veronicaparanhos.vercel.app)
+<br />
+<br />
 
 ---
 
@@ -38,14 +38,14 @@ O objetivo era criar um site usando ReactJS, onde eu pudesse me apresentar e enr
 ### `Tecnologias usadas`
 
 | Ferramenta         | Descrição                                                             |
-| ------------------ | --------------------------------------------------------------------- | --- |
+| ------------------ | --------------------------------------------------------------------- |
 | `ReactJS`          | framework web                                                         |
 | `Vite`             | gerador de projeto de front-end                                       |
 | `npm`              | gerenciador de pacotes                                                |
 | `Firebase`         | Ferramenta realtime database para gravar as mensagens de contato      |
 | `Module CSS`       | Ferramenta para ter mais produtividade ao estilizar a aplicação       |
 | `Phosphor`         | Dependência com icones super legais                                   |
-| `React router dom` | Dependência para criar rotas no reactjs                               |     |
+| `React router dom` | Dependência para criar rotas no reactjs                               |
 | `Vercel`           | Hospedagem para a aplicação, fiz o deploy integrado com o github      |
 | `Github`           | Hospedagem do código fonte integrado com gerenciador de versionamento |
 
@@ -77,22 +77,22 @@ Siga os passos e inclua as informações abaixo:
 <br />
 <br />
 
-### 😎 Próximos passos mapeados
+### 😉 Próximos passos mapeados
 
 - Revisar acessibilidade
 - Revisar responsividade
+  <br />
+  <br />
 
-<br />
-<br />
 ---
 
-_Foi incrível compartilhar essa jornada com você! Qualquer dúvida ou sugestão, entre em contato!_
+😍 Foi incrível compartilhar essa jornada com você!<br />
 
-### Vamos nos conectar?
+Qualquer dúvida ou sugestão, entre em contato!
 
 - [email](mailto:veronicahp@gmail.com)
 - [linkedin](https://www.linkedin.com/in/veronicahp/)
 - [github](https://github.com/veronicaparanhos)
 
 <br>
-Feito com 💜 por Verônica Paranhos
+Feito com 💗 por Verônica Paranhos
