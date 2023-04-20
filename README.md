@@ -92,7 +92,6 @@ Qualquer dúvida ou sugestão, entre em contato!
 
 - [email](mailto:veronicahp@gmail.com)
 - [linkedin](https://www.linkedin.com/in/veronicahp/)
-- [github](https://github.com/veronicaparanhos)
 
 <br>
 Feito com 💗 por Verônica Paranhos
